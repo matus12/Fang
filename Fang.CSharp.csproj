@@ -13,13 +13,11 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.2.1f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -223,10 +221,13 @@
   <ItemGroup>
     <Compile Include="Assets\BirdController.cs" />
     <Compile Include="Assets\CatController.cs" />
+    <Compile Include="Assets\LevelManager.cs" />
     <Compile Include="Assets\living birds\scripts\lb_Bird.cs" />
     <Compile Include="Assets\living birds\scripts\lb_BirdController.cs" />
     <Compile Include="Assets\living birds\scripts\lb_CrowProximity.cs" />
     <Compile Include="Assets\PigeonManager.cs" />
+    <Compile Include="Assets\PigeonVision.cs" />
+    <Compile Include="Assets\PointManager.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
