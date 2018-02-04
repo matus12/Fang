@@ -123,7 +123,7 @@ GameObject:
   - component: {fileID: 414118034}
   - component: {fileID: 414118033}
   m_Layer: 0
-  m_Name: PigeonManager
+  m_Name: SpawnManager
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _pigeon: {fileID: 1357418741135542, guid: 48786b6bc8deb47488f585f152add3c4, type: 2}
+  _point: {fileID: 1530210927376964, guid: 65b644874bb9e69428555b73e9256f88, type: 2}
   _numberOfPigeons: 100
 --- !u!4 &414118034
 Transform:
@@ -785,6 +786,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4216514800290202, guid: f0e0b8e6287731b47944f7c3c3d32fbe, type: 2}
       propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1393002194360946, guid: f0e0b8e6287731b47944f7c3c3d32fbe, type: 2}
+      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
